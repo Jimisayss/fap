@@ -1,0 +1,44 @@
+/* theme.css */
+
+/* Color Palette */
+:root {
+    --primary-color: #4a90e2; /* Example: Blue */
+    --secondary-color: #f3f4f6; /* Example: Light Gray */
+    --text-color: #333; /* Dark text color */
+    --background-color: #fff; /* White background */
+}
+
+/* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: var(--background-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

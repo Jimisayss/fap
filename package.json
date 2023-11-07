@@ -1,0 +1,8 @@
+{
+  "name": "personal-finance-advisor",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm start --prefix server & npm start --prefix client",
+    "install-all": "cd server && npm install && cd ../client && npm install"
+  }
+}
